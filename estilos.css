@@ -507,3 +507,26 @@ footer p{
     color: rgb(175, 173, 173)
 }
 /*footer End*/
+/*whats start*/
+.whats{
+    height: 50px;
+    width: 50px;
+    background-color: springgreen;
+    color: #fff;
+    position: fixed;
+    right: 40px; 
+    bottom: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+}
+.whats:hover{
+    color: green;
+}
+.iconosfoot__links:hover{
+    color: black;
+}
+.hoverIconsFo:hover{
+    color: rgb(175, 173, 173)
+}
+/*whats end*/
