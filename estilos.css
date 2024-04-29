@@ -292,3 +292,87 @@ h1{
     color: red;
 }
 /*Indumentaria End*/
+/*gallery start*/
+.galeriaItems{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,150px);
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img2 img4 img4"
+    "img5 img7 img8 img9"
+    "img5 img7 img8 img9"
+    ;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.galeriaAll{
+    background-color: rgb(222, 217, 217);
+}
+.tituloGallery{
+    margin-top: 85px;
+    margin-bottom: 60px;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 8px #0d0d0d;
+}
+.item{
+    border: 5px solid black;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 7px;
+    transition: all 0,7;
+    filter: grayscale(90%);
+    box-shadow: 0 0 10px #000;
+}
+.item:hover{
+    filter: grayscale(0%);
+    transform: scale(1,01);
+}
+.item1{
+    grid-area: img1;
+    background-image: url(./imgss/audi-798530_1280.jpg);
+}
+.item2{
+    grid-area: img2;
+    background-image: url(./imgss/sports-car-4815234_1280.jpg);
+}
+.item3{
+    grid-area: img3;
+    background-image: url(./imgss/porsche-4795517_1280.jpg);
+}
+.item4{
+    grid-area: img4;
+    background-image: url(./imgss/racing-4779187_1280.jpg);
+}
+.item5{
+    grid-area: img5;
+    background-image: url(./imgss/race-cars-7322790_1280.jpg);
+}
+.item6{
+    grid-area: img6;
+    background-image: url(./imgss/mercedes-587557_1280.jpg);
+}
+.item7{
+    grid-area: img7;
+    background-image: url(./imgss/car-1880381_1280.jpg);
+}
+.item8{
+    grid-area: img8;
+    background-image: url(./imgss/car-604019_1280.jpg);
+}
+.item9{
+    grid-area: img9;
+    background-image: url(./imgss/cars-5987999_1280.jpg);
+}
+.item10{
+    grid-area: img10;
+    background-image: url(./imgss/cars-6282698_1280.jpg);
+}
+/*gallery end*/
