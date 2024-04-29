@@ -376,3 +376,84 @@ h1{
     background-image: url(./imgss/cars-6282698_1280.jpg);
 }
 /*gallery end*/
+/*Form start*/
+.tituloFormulario{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.inputClassAll{
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+    border-left: solid 2px #242020;
+    border-bottom:solid 2px #242020;
+    background-color: #0d0d0d;
+    color: rgb(178, 170, 170);
+}
+select{
+    background-color:#0d0d0d;
+    color: rgb(178, 170, 170);
+    border: none;
+    border-left: solid 2px #242020;
+    border-bottom:solid 2px #242020;
+    font-family: sans-serif;    
+}
+.seccionFormulario{
+    background-color: #242020;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+form{
+    box-sizing: border-box;
+    background-color: #0d0d0d;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0px 0px 40px #a9a1a1;
+}
+label{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+textarea{
+    background-color: #0d0d0d;
+    border: solid 2px #242020;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    color: rgb(178, 170, 170);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.inputForm{
+    margin: 20px;
+    padding: 10px;
+}
+input{
+    width: 100%;
+}
+.submitClass {
+    padding: 10px;
+    margin: 25px;
+    max-width: 100px;
+}
+.submitClassInput{
+    background-color: #0d0d0d;
+    color: rgb(178, 170, 170);
+    padding: 6px;
+    margin-bottom: 20px;
+    border: solid 2px #242020;
+    border-radius: 5px;
+    box-shadow: 0 0 4px whitesmoke;
+    font-family: sans-serif;
+}
+/*Form End*/
