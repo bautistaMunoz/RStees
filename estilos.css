@@ -71,7 +71,7 @@ header{
 /*End navBarStyles*/
 /*Start home*/
 .mainHome{
-    background-image: url(./imgss/gt3-4795514_1280.jpg);
+    background-image: url(./multimedia/gt3-4795514_1280.jpg);
     height: 800px;
     background-size: cover;
     margin-top: 80px;
@@ -213,56 +213,56 @@ h1{
     box-shadow: 5px 5px 14px rgb(243, 67, 67);
 }
 .gallery__image{
-    background-image: url(./imgss/auto3-removebg-preview.png);
+    background-image: url(./multimedia/auto3-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image2{
-    background-image: url(./imgss/auto1-removebg-preview.png);
+    background-image: url(./multimedia/auto1-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image3{
-    background-image: url(./imgss/images__3_-removebg-preview.png);
+    background-image: url(./multimedia/images__3_-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image4{
-    background-image: url(./imgss/images__2_-removebg-preview.png);
+    background-image: url(./multimedia/images__2_-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image5{
-    background-image: url(./imgss/images90-removebg-preview.png);
+    background-image: url(./multimedia/images90-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px; 
 }
 .gallery__image6{
-    background-image: url(./imgss/images07-removebg-preview.png);
+    background-image: url(./multimedia/images07-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image7{
-    background-image: url(./imgss/download33-removebg-preview.png);
+    background-image: url(./multimedia/download33-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
 }
 .gallery__image8{
-    background-image: url(./imgss/download34-removebg-preview.png);
+    background-image: url(./multimedia/download34-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -362,43 +362,43 @@ h1{
 }
 .item1{
     grid-area: img1;
-    background-image: url(./imgss/audi-798530_1280.jpg);
+    background-image: url(./multimedia/audi-798530_1280.jpg);
 }
 .item2{
     grid-area: img2;
-    background-image: url(./imgss/sports-car-4815234_1280.jpg);
+    background-image: url(./multimedia/sports-car-4815234_1280.jpg);
 }
 .item3{
     grid-area: img3;
-    background-image: url(./imgss/porsche-4795517_1280.jpg);
+    background-image: url(./multimedia/porsche-4795517_1280.jpg);
 }
 .item4{
     grid-area: img4;
-    background-image: url(./imgss/racing-4779187_1280.jpg);
+    background-image: url(./multimedia/racing-4779187_1280.jpg);
 }
 .item5{
     grid-area: img5;
-    background-image: url(./imgss/race-cars-7322790_1280.jpg);
+    background-image: url(./multimedia/race-cars-7322790_1280.jpg);
 }
 .item6{
     grid-area: img6;
-    background-image: url(./imgss/mercedes-587557_1280.jpg);
+    background-image: url(./multimedia/mercedes-587557_1280.jpg);
 }
 .item7{
     grid-area: img7;
-    background-image: url(./imgss/car-1880381_1280.jpg);
+    background-image: url(./multimedia/car-1880381_1280.jpg);
 }
 .item8{
     grid-area: img8;
-    background-image: url(./imgss/car-604019_1280.jpg);
+    background-image: url(./multimedia/car-604019_1280.jpg);
 }
 .item9{
     grid-area: img9;
-    background-image: url(./imgss/cars-5987999_1280.jpg);
+    background-image: url(./multimedia/cars-5987999_1280.jpg);
 }
 .item10{
     grid-area: img10;
-    background-image: url(./imgss/cars-6282698_1280.jpg);
+    background-image: url(./multimedia/cars-6282698_1280.jpg);
 }
 /*gallery end*/
 /*Form start*/
