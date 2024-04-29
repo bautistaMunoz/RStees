@@ -43,7 +43,32 @@ header{
         font-size: 30px;
         color: #d7cccc;
     }
-    /*start navbar*/
+    /*end navbar*/
+    /*Start navBarStyles*/
+.btn-styles{
+    background-color: #1d1b1b;
+    border: solid 2px black;
+}
+.btn-styles:hover{
+    background-color: #323030;
+    border: solid 2px black;
+    color: rgb(243, 60, 60);
+}
+.input-styles{
+    background-color: #323030;
+    border: solid 2px black;
+}
+.font-familiy{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.bars__icon{
+    font-size: 30px;
+    color: #d7cccc;
+}
+/*End navBarStyles*/
     /*Start home*/
 .mainHome{
     background-image: url(./imgss/gt3-4795514_1280.jpg);
