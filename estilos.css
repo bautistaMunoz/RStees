@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap');
+*{
+font-family: "Roboto Serif", serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    background: linear-gradient(gray,black);
+}
+.logo{
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tittleRS{
+    color: red;
+    font-size: 50px;
+    text-shadow: 0 4 5px whitesmoke;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.spanNavBar{
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.spanNavBarTees{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    }
+    .bars__icon{
+        font-size: 30px;
+        color: #d7cccc;
+    }
