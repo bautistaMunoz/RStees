@@ -165,3 +165,130 @@ h1{
     padding: 10px;
 }
 /*SobreNos End*/
+/*Indumentaria start*/
+.gallery{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(172, 167, 167);
+    justify-content: space-evenly;
+    height: 650px;
+}
+.down{
+    background-color: rgb(172, 167, 167);
+}
+.gallery__card{
+    width: 20%;
+    height: 480px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 130px;
+    border: solid 5px black;
+    border-radius: 6px;
+    background: linear-gradient(black,grey);
+    box-shadow: 5px 5px 14px rgb(243, 67, 67);
+}
+.gallery__image{
+    background-image: url(./imgss/auto3-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image2{
+    background-image: url(./imgss/auto1-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image3{
+    background-image: url(./imgss/images__3_-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image4{
+    background-image: url(./imgss/images__2_-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image5{
+    background-image: url(./imgss/images90-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px; 
+}
+.gallery__image6{
+    background-image: url(./imgss/images07-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image7{
+    background-image: url(./imgss/download33-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__image8{
+    background-image: url(./imgss/download34-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.gallery__subtittle{
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-shadow: 0 0 10px whitesmoke;
+}
+.gallery__description{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.gallery__price{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gallery-price10{
+    text-decoration: line-through;
+    color: rgb(135, 133, 133);
+}
+.gallery-price75{
+    color: #d6cbcb;
+}
+.gallery__buy{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(219, 206, 206);
+    border: solid 2px rgb(12, 12, 12);
+    background-color: rgb(12, 12, 12);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(207, 195, 195);
+    padding: 3px;
+}
+.gallery__buy:hover{
+    color: red;
+}
+/*Indumentaria End*/
