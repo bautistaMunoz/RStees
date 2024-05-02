@@ -6,7 +6,22 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+/*medias*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*medias*/
 /*start navbar*/
+
 header{
     background-color: black;
     color: white;
@@ -374,31 +389,23 @@ h1{
 }
 .item4{
     grid-area: img4;
-    background-image: url(./multimedia/racing-4779187_1280.jpg);
+    background-image: url(./multimedia/sports-car-4815234_1280.jpg);
 }
 .item5{
     grid-area: img5;
     background-image: url(./multimedia/race-cars-7322790_1280.jpg);
 }
 .item6{
-    grid-area: img6;
-    background-image: url(./multimedia/mercedes-587557_1280.jpg);
-}
-.item7{
     grid-area: img7;
     background-image: url(./multimedia/car-1880381_1280.jpg);
 }
-.item8{
+.item7{
     grid-area: img8;
     background-image: url(./multimedia/car-604019_1280.jpg);
 }
-.item9{
+.item8{
     grid-area: img9;
     background-image: url(./multimedia/cars-5987999_1280.jpg);
-}
-.item10{
-    grid-area: img10;
-    background-image: url(./multimedia/cars-6282698_1280.jpg);
 }
 /*gallery end*/
 /*Form start*/
@@ -530,3 +537,60 @@ footer p{
     color: rgb(175, 173, 173)
 }
 /*whats end*/
+/*medias*/
+@media only screen and (max-width:520px){
+    .galeriaItems{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8"
+        "img9"
+        "img10";
+    }
+    .item{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    .tituloGallery{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:520px){
+    .galeriaItems{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,100px);
+    }
+    .tituloGallery{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:530px){
+    .metodoSublimacion__img{
+        height: 340px;
+        width: 340px;
+    }
+}
+@media only screen and (max-width:382px){
+    .metodoSublimacion__img{
+        height: 280px;
+        width: 280px;
+    }
+    .SobreNosotros__tittle{
+        font-size: 25px;
+    }
+    .metodoSublimacion__subtittle{
+        font-size: 25px;
+    }
+}
+/*medias*/
