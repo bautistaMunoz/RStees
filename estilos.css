@@ -6,22 +6,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-/*medias*/
-
-
-
-
-
-
-
-
-
-
-
-
-/*medias*/
 /*start navbar*/
-
 header{
     background-color: black;
     color: white;
@@ -57,6 +42,17 @@ header{
     .bars__icon{
         font-size: 30px;
         color: #d7cccc;
+    }
+    .galeria-searchbar{ 
+        text-decoration: underline;
+    }
+    .search-font{
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #242020;
+        text-transform: uppercase;
     }
 /*end navbar*/
 /*Start navBarStyles*/
@@ -487,6 +483,9 @@ input{
     border-radius: 5px;
     box-shadow: 0 0 4px whitesmoke;
     font-family: sans-serif;
+}
+.submitClassInput:hover{
+    color: #474545;
 }
 /*Form End*/
 /*footer start*/
