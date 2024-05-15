@@ -1,595 +1,605 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap');
-*{
-font-family: "Roboto Serif", serif;
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-/*start navbar*/
-header{
-    background-color: black;
-    color: white;
-    background: linear-gradient(gray,black);
-}
-.logo{
-    text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.tittleRS{
-    color: red;
-    font-size: 50px;
-    text-shadow: 0 4 5px whitesmoke;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.spanNavBar{
-    color: red;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 35px;
-}
-.spanNavBarTees{
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    }
-    .bars__icon{
-        font-size: 30px;
-        color: #d7cccc;
-    }
-    .galeria-searchbar{ 
-        text-decoration: underline;
-    }
-    .search-font{
-        font-family: "Audiowide", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-        color: #242020;
-        text-transform: uppercase;
-    }
-/*end navbar*/
-/*Start navBarStyles*/
-.btn-styles{
-    background-color: #1d1b1b;
-    border: solid 2px black;
-}
-.btn-styles:hover{
-    background-color: #323030;
-    border: solid 2px black;
-    color: rgb(243, 60, 60);
-}
-.input-styles{
-    background-color: #323030;
-    border: solid 2px black;
-}
-.font-familiy{
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-}
-.bars__icon{
-    font-size: 30px;
-    color: #d7cccc;
-}
-/*End navBarStyles*/
-/*Start home*/
-.mainHome{
-    background-image: url(./multimedia/gt3-4795514_1280.jpg);
-    height: 800px;
-    background-size: cover;
-    margin-top: 80px;
-}
-h1{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-shadow: 0 0 3px black;
-    font-size: 50px;
-}
-.infoDiv{
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: 15px;
-}
-.infoDiv a{
-    text-decoration: none;
-    color: whitesmoke;
-    text-shadow: 0 0 3px black;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #000;
-    padding: 5px;
-    border: 4px solid rgb(33, 29, 29);
-    border-radius: 8px;
-}
-.infoDiv a:hover{
-    color: red;
-}
-.navLinks a:hover{
-    color: red;
-}
-.SectionHomeImg{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 30px;
-}
-.divMain1{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 250px;
-    height: 25%;
-    padding: 20px;
-    box-shadow: 10px 10px 10px rgb(15, 14, 14);
-}
-/*End home*/
-/*SobreNos start*/
-.SobreNosotros{
-    text-align: justify;
-    background-color: #d8d0d0;
-}
-.SobreNosotros__sectionSobreNos{
-    text-align: justify;
-    padding: 50px;
-    font-family: sans-serif;
-    font-size: 20px;
-    border-bottom: solid 3px black;
-    box-shadow: inset 0 0 7px black;
-}
-.SobreNosotros__tittle{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-size: 50px;
-    
-}
-.metodoSublimacion{
-    background: linear-gradient(#d8d0d0,#e6e0e0);
-    padding: 30px;
-}
-.metodoSublimacion__paragraph{
-    font-family: sans-serif;
-    text-align: justify;
-}
-.metodoSublimacion__imgSpace{
-    padding-top: 40px;
-}
-.metodoSublimacion__img{
-    width: 500px;
-    height: 300px;
-    display: block;
-    margin: auto;
-    padding: auto;
-    border: solid 4px rgb(23, 23, 23);
-    border-radius: 7px;
-    box-shadow: 0 0 10px rgb(23, 23, 23);
-}
-.metodoSublimacion__subtittle{
-    text-align: center;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 35px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-.metodoSublimacion__subtittle--font{
-    font-size: 25px;
-    text-transform: none;
-}
-.etapasSublimacion__sectionSobreNos{
-    padding: 30px;
-    background-color: #e6e0e0;
-}
-.etapasSublimacion__list{
-    padding: 10px;
-}
-.etapasSublimacion__item{
-    padding: 10px;
-}
-/*SobreNos End*/
-/*Indumentaria start*/
-.gallery{
-    display: flex;
-    box-sizing: border-box;
-    background-color: rgb(172, 167, 167);
-    justify-content: space-evenly;
-    height: 650px;
-}
-.down{
-    background-color: rgb(172, 167, 167);
-}
-.gallery__card{
-    width: 20%;
-    height: 480px;
-    padding: 20px;
-    margin: 30px;
-    margin-top: 130px;
-    border: solid 5px black;
-    border-radius: 6px;
-    background: linear-gradient(black,grey);
-    box-shadow: 5px 5px 14px rgb(243, 67, 67);
-}
-.gallery__image{
-    background-image: url(./multimedia/auto3-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image2{
-    background-image: url(./multimedia/auto1-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image3{
-    background-image: url(./multimedia/images__3_-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image4{
-    background-image: url(./multimedia/images__2_-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image5{
-    background-image: url(./multimedia/images90-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px; 
-}
-.gallery__image6{
-    background-image: url(./multimedia/images07-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image7{
-    background-image: url(./multimedia/download33-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__image8{
-    background-image: url(./multimedia/download34-removebg-preview.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.gallery__subtittle{
-    color: white;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    text-shadow: 0 0 10px whitesmoke;
-}
-.gallery__description{
-    color: white;
-    font-family: sans-serif;
-    font-size: 10px;
-    text-align: center;
-    padding-bottom: 30px;
-    text-transform: uppercase;
-}
-.gallery__price{
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.gallery-price10{
-    text-decoration: line-through;
-    color: rgb(135, 133, 133);
-}
-.gallery-price75{
-    color: #d6cbcb;
-}
-.gallery__buy{
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 400;
-    color: rgb(219, 206, 206);
-    border: solid 2px rgb(12, 12, 12);
-    background-color: rgb(12, 12, 12);
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgb(207, 195, 195);
-    padding: 3px;
-}
-.gallery__buy:hover{
-    color: red;
-}
-/*Indumentaria End*/
-/*gallery start*/
-.galeriaItems{
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,150px);
-    grid-template-areas: 
-    "img1 img2 img3 img3"
-    "img1 img2 img4 img4"
-    "img5 img7 img8 img9"
-    "img5 img7 img8 img9"
-    ;
-    grid-gap: 20px;
-    padding: 20px;
-}
-.galeriaAll{
-    background-color: rgb(222, 217, 217);
-}
-.tituloGallery{
-    margin-top: 85px;
-    margin-bottom: 60px;
-    font-size: 80px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-shadow: 0 0 8px #0d0d0d;
-}
-.item{
-    border: 5px solid black;
-    background-position: center;
-    background-size: cover;
-    border: 5px solid black;
-    border-radius: 7px;
-    transition: all 0,7;
-    filter: grayscale(90%);
-    box-shadow: 0 0 10px #000;
-}
-.item:hover{
-    filter: grayscale(0%);
-    transform: scale(1,01);
-}
-.item1{
-    grid-area: img1;
-    background-image: url(./multimedia/audi-798530_1280.jpg);
-}
-.item2{
-    grid-area: img2;
-    background-image: url(./multimedia/sports-car-4815234_1280.jpg);
-}
-.item3{
-    grid-area: img3;
-    background-image: url(./multimedia/porsche-4795517_1280.jpg);
-}
-.item4{
-    grid-area: img4;
-    background-image: url(./multimedia/sports-car-4815234_1280.jpg);
-}
-.item5{
-    grid-area: img5;
-    background-image: url(./multimedia/race-cars-7322790_1280.jpg);
-}
-.item6{
-    grid-area: img7;
-    background-image: url(./multimedia/car-1880381_1280.jpg);
-}
-.item7{
-    grid-area: img8;
-    background-image: url(./multimedia/car-604019_1280.jpg);
-}
-.item8{
-    grid-area: img9;
-    background-image: url(./multimedia/cars-5987999_1280.jpg);
-}
-/*gallery end*/
-/*Form start*/
-.tituloFormulario{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal
-}
-.inputClassAll{
-    padding: 6px;
-    margin-top: 8px;
-    border: none;
-    border-left: solid 2px #242020;
-    border-bottom:solid 2px #242020;
-    background-color: #0d0d0d;
-    color: rgb(178, 170, 170);
-}
-select{
-    background-color:#0d0d0d;
-    color: rgb(178, 170, 170);
-    border: none;
-    border-left: solid 2px #242020;
-    border-bottom:solid 2px #242020;
-    font-family: sans-serif;    
-}
-.seccionFormulario{
-    background-color: #242020;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 50px;
-}
-form{
-    box-sizing: border-box;
-    background-color: #0d0d0d;
-    max-width: 600px;
-    margin: auto;
-    margin-top: 80px;
-    box-shadow: 0px 0px 40px #a9a1a1;
-}
-label{
-    color: white;
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-textarea{
-    background-color: #0d0d0d;
-    border: solid 2px #242020;
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 200px;
-    color: rgb(178, 170, 170);
-    border-radius: 5px;
-    padding: 5px;
-    font-family: sans-serif;
-}
-.inputForm{
-    margin: 20px;
-    padding: 10px;
-}
-input{
-    width: 100%;
-}
-.submitClass {
-    padding: 10px;
-    margin: 25px;
-    max-width: 100px;
-}
-.submitClassInput{
-    background-color: #0d0d0d;
-    color: rgb(178, 170, 170);
-    padding: 6px;
-    margin-bottom: 20px;
-    border: solid 2px #242020;
-    border-radius: 5px;
-    box-shadow: 0 0 4px whitesmoke;
-    font-family: sans-serif;
-}
-.submitClassInput:hover{
-    color: #474545;
-}
-/*Form End*/
-/*footer start*/
-footer{
-    background-color: black;
-    padding: 40px;
-    background: linear-gradient(#000,transparent);
-}
-footer p{
-    color: white;
-    text-align: right;
-    text-align: end;
-    font-size: 10px;
-}
-.iconosfoot a{
-    text-decoration: none;
-    color: white;
-    padding: 7px;
-    font-size: 30px;
-}
-.iconosfoot__links:hover{
-    color: black;
-}
-.hoverIconsFo:hover{
-    color: rgb(175, 173, 173)
-}
-/*footer End*/
-/*whats start*/
-.whats{
-    height: 50px;
-    width: 50px;
-    background-color: springgreen;
-    color: #fff;
-    position: fixed;
-    right: 40px; 
-    bottom: 30px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 35px;
-}
-.whats:hover{
-    color: green;
-}
-.iconosfoot__links:hover{
-    color: black;
-}
-.hoverIconsFo:hover{
-    color: rgb(175, 173, 173)
-}
-/*whats end*/
-/*medias*/
-@media only screen and (max-width:520px){
-    .galeriaItems{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        "img1"
-        "img2"
-        "img3"
-        "img4"
-        "img5"
-        "img6"
-        "img7"
-        "img8"
-        "img9"
-        "img10";
-    }
-    .item{
-        width: 300px;
-        height: 300px;
-        margin: auto;
-    }
-    .tituloGallery{
-        margin-top: 100px;
-        font-size: 40px;
-    }
-}
-@media only screen and (max-width:768px) and (min-width:520px){
-    .galeriaItems{
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(4,100px);
-    }
-    .tituloGallery{
-        font-size: 50px;
-        margin-top: 100px;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Great+Vibes&family=Imbue:opsz,wght@10..100,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sacramento&family=Tauri&display=swap");
+* {
+  font-family: "Roboto Serif", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media only screen and (max-width:530px){
-    .metodoSublimacion__img{
-        height: 340px;
-        width: 340px;
-    }
+/*start navbar*/
+header {
+  background-color: black;
+  color: white;
+  background: linear-gradient(gray, black);
 }
-@media only screen and (max-width:382px){
-    .metodoSublimacion__img{
-        height: 280px;
-        width: 280px;
-    }
-    .SobreNosotros__tittle{
-        font-size: 25px;
-    }
-    .metodoSublimacion__subtittle{
-        font-size: 25px;
-    }
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tittleRS {
+  color: red;
+  font-size: 50px;
+  text-shadow: 0 4 5px whitesmoke;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spanNavBar {
+  color: red;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.spanNavBarTees {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.bars__icon {
+  font-size: 30px;
+  color: #d7cccc;
+}
+
+.galeria-searchbar {
+  text-decoration: underline;
+}
+
+.search-font {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #242020;
+  text-transform: uppercase;
+}
+
+/*end navbar*/
+/*Start navBarStyles*/
+.btn-styles {
+  background-color: #1d1b1b;
+  border: solid 2px black;
+}
+
+.btn-styles:hover {
+  background-color: #323030;
+  border: solid 2px black;
+  color: rgb(243, 60, 60);
+}
+
+.input-styles {
+  background-color: #323030;
+  border: solid 2px black;
+}
+
+.font-familiy {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.bars__icon {
+  font-size: 30px;
+  color: #d7cccc;
+}
+
+/*End navBarStyles*/
+/*Start home*/
+.mainHome {
+  background-image: url(./multimedia/gt3-4795514_1280.jpg);
+  height: 800px;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 0 3px black;
+  font-size: 50px;
+}
+
+.infoDiv {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.infoDiv a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 0 0 3px black;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000;
+  padding: 5px;
+  border: 4px solid rgb(33, 29, 29);
+  border-radius: 8px;
+}
+
+.infoDiv a:hover {
+  color: red;
+}
+
+.navLinks a:hover {
+  color: red;
+}
+
+.SectionHomeImg {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.divMain1 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 250px;
+  height: 25%;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgb(15, 14, 14);
+}
+
+/*End home*/
+/*SobreNos start*/
+.SobreNosotros {
+  text-align: justify;
+  background-color: #d8d0d0;
+}
+
+.SobreNosotros__sectionSobreNos {
+  text-align: justify;
+  padding: 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-bottom: solid 3px black;
+  box-shadow: inset 0 0 7px black;
+}
+
+.SobreNosotros__tittle {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.metodoSublimacion {
+  background: linear-gradient(#d8d0d0, #e6e0e0);
+  padding: 30px;
+}
+
+.metodoSublimacion__paragraph {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.metodoSublimacion__imgSpace {
+  padding-top: 40px;
+}
+
+.metodoSublimacion__img {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  padding: auto;
+  border: solid 4px rgb(23, 23, 23);
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgb(23, 23, 23);
+}
+
+.metodoSublimacion__subtittle {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.metodoSublimacion__subtittle--font {
+  font-size: 25px;
+  text-transform: none;
+}
+
+.etapasSublimacion__sectionSobreNos {
+  padding: 30px;
+  background-color: #e6e0e0;
+}
+
+.etapasSublimacion__list {
+  padding: 10px;
+}
+
+.etapasSublimacion__item {
+  padding: 10px;
+}
+
+/*SobreNos End*/
+/*Indumentaria start*/
+.cardUp {
+  margin-top: 70px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid rgba(22, 4, 4, 0.78);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px black;
+  border-radius: 7px;
+  background-color: #c0c0c0;
+}
+.cardTitle {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-shadow: 0 0 4px rgb(40, 37, 37);
+}
+.cardImage {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+}
+.cardText {
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 0 0 4px rgb(40, 37, 37);
+}
+.cardButton {
+  margin-left: 40px;
+  margin-bottom: 18px;
+}
+.cardLink {
+  color: rgb(162, 155, 155);
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: rgb(3, 3, 3);
+  text-decoration: none;
+  text-transform: uppercase;
+  border: rgb(64, 58, 58);
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: 0 0 10px black;
+}
+.card .cardLink:hover {
+  background-color: #6e6a6a;
+  color: #302e2e;
+}
+
+/*Indumentaria End*/
+/*gallery start*/
+.galeriaItems {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 150px);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img2 img4 img4" "img5 img7 img8 img9" "img5 img7 img8 img9";
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.galeriaAll {
+  background-color: rgb(222, 217, 217);
+}
+
+.tituloGallery {
+  margin-top: 85px;
+  margin-bottom: 60px;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 0 8px #0d0d0d;
+}
+
+.item {
+  border: 5px solid black;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 7px;
+  transition: all 0, 7;
+  filter: grayscale(90%);
+  box-shadow: 0 0 10px #000;
+}
+
+.item:hover {
+  filter: grayscale(0%);
+  transform: scale(1, 1);
+}
+
+.item1 {
+  grid-area: img1;
+  background-image: url(./multimedia/audi-798530_1280.jpg);
+}
+
+.item2 {
+  grid-area: img2;
+  background-image: url(./multimedia/sports-car-4815234_1280.jpg);
+}
+
+.item3 {
+  grid-area: img3;
+  background-image: url(./multimedia/porsche-4795517_1280.jpg);
+}
+
+.item4 {
+  grid-area: img4;
+  background-image: url(./multimedia/sports-car-4815234_1280.jpg);
+}
+
+.item5 {
+  grid-area: img5;
+  background-image: url(./multimedia/race-cars-7322790_1280.jpg);
+}
+
+.item6 {
+  grid-area: img7;
+  background-image: url(./multimedia/car-1880381_1280.jpg);
+}
+
+.item7 {
+  grid-area: img8;
+  background-image: url(./multimedia/car-604019_1280.jpg);
+}
+
+.item8 {
+  grid-area: img9;
+  background-image: url(./multimedia/cars-5987999_1280.jpg);
+}
+
+/*gallery end*/
+/*Form start*/
+.tituloFormulario {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inputClassAll {
+  padding: 6px;
+  margin-top: 8px;
+  border: none;
+  border-left: solid 2px #242020;
+  border-bottom: solid 2px #242020;
+  background-color: #0d0d0d;
+  color: rgb(178, 170, 170);
+}
+
+select {
+  background-color: #0d0d0d;
+  color: rgb(178, 170, 170);
+  border: none;
+  border-left: solid 2px #242020;
+  border-bottom: solid 2px #242020;
+  font-family: sans-serif;
+}
+
+.seccionFormulario {
+  background-color: #242020;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+form {
+  box-sizing: border-box;
+  background-color: #0d0d0d;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  box-shadow: 0px 0px 40px #a9a1a1;
+}
+
+label {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+textarea {
+  background-color: #0d0d0d;
+  border: solid 2px #242020;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+  color: rgb(178, 170, 170);
+  border-radius: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.inputForm {
+  margin: 20px;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+.submitClass {
+  padding: 10px;
+  margin: 25px;
+  max-width: 100px;
+}
+
+.submitClassInput {
+  background-color: #0d0d0d;
+  color: rgb(178, 170, 170);
+  padding: 6px;
+  margin-bottom: 20px;
+  border: solid 2px #242020;
+  border-radius: 5px;
+  box-shadow: 0 0 4px whitesmoke;
+  font-family: sans-serif;
+}
+
+.submitClassInput:hover {
+  color: #474545;
+}
+
+/*Form End*/
+/*footer start*/
+footer {
+  background-color: black;
+  padding: 40px;
+  background: linear-gradient(#000, transparent);
+}
+
+footer p {
+  color: white;
+  text-align: right;
+  text-align: end;
+  font-size: 10px;
+}
+
+.iconosfoot a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  font-size: 30px;
+}
+
+.iconosfoot__links:hover {
+  color: black;
+}
+
+.hoverIconsFo:hover {
+  color: rgb(175, 173, 173);
+}
+
+/*footer End*/
+/*whats start*/
+.whats {
+  height: 50px;
+  width: 50px;
+  background-color: springgreen;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.whats:hover {
+  color: green;
+}
+
+.iconosfoot__links:hover {
+  color: black;
+}
+
+.hoverIconsFo:hover {
+  color: rgb(175, 173, 173);
+}
+
+/*whats end*/
+/*medias*/
+@media only screen and (max-width: 520px) {
+  .galeriaItems {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10";
+  }
+  .item {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  .tituloGallery {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 520px) {
+  .galeriaItems {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+  }
+  .tituloGallery {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .metodoSublimacion__img {
+    height: 340px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .metodoSublimacion__img {
+    height: 280px;
+    width: 280px;
+  }
+  .SobreNosotros__tittle {
+    font-size: 25px;
+  }
+  .metodoSublimacion__subtittle {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cardImage {
+    width: 270px;
+  }
+  .cardTitle {
+    font-size: 22px;
+  }
+  .cardText {
+    font-size: 13px;
+  }
+  .cardLink {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .SectionHomeImg {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .mainHome {
+    height: 1400px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .destacadosHome {
+    font-size: 30px;
+  }
 }
 /*medias*/
+
+/*# sourceMappingURL=estilos.css.map */
