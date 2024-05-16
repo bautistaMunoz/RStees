@@ -241,7 +241,8 @@ $cardTextShadow: 0 0 4px rgb(40, 37, 37);
     }
     &Button{
         margin-left: 40px;
-        margin-bottom: 18px;;
+        margin-bottom: 18px;
+        transition: transform 0.3s ease;
     }
     @mixin linkConfig ($colorsLink, $bgColorsLink, $borderLink){
         color: $colorsLink;
@@ -264,7 +265,7 @@ $cardTextShadow: 0 0 4px rgb(40, 37, 37);
         background-color: $bgcolors;
     }
     .cardLink:hover{
-        @include sizes(#302e2e,#6e6a6a)
+        @include sizes(#302e2e,#6e6a6a);
     }
     .gallery__price{
         text-align: center;
